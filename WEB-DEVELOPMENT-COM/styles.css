@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(31, 30, 30);
+    margin: 8rem;
+    font-family: Oswald, sans-serif;
+}
+
+form {
+    width: 30rem;
+    margin: 3rem auto;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+label{
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+input {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+    box-shadow: 1rem;
+    box-sizing: border-box;
+    font: inherit;
+    border: 1px solid rgb(184, 184, 184);
+    padding: 0.25rem;
+    color: rgb(184, 184, 184);
+}
+
+input:focus {
+    background-color: rgb(219, 190, 253);
+    color: rgb(32, 5, 63);
+    border-color: rgb(32, 5, 63);
+    /* input 입력을 위해 클릭시 색상 지정 코드 */
+}
+
+button {
+    display: block;
+    font: inherit;
+}
