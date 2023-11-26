@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Fira+Sans&family=Oswald&family=PT+Serif&family=Roboto:wght@400;900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <title>HTML Forms</title>
+    </head>
+    <body>
+        <form action="/" method="get">
+            <!-- action -데이터를 보내는 목적지를 말한다. method - 데이터를 보내는 방식의 결정 get은 보안이 취약하므로 post로
+            변경을 하면 중요한 부분에 노출을 방지 할 수 있다. -->
+            <label for="user-name">Your name</label>
+            <input type="text" name="user-name" id="user-name"/>
+            <!-- input 텍스트 -->
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
