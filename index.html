@@ -4,7 +4,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
         <link
             href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Fira+Sans&family=Oswald&family=PT+Serif&family=Roboto:wght@400;900&display=swap"
             rel="stylesheet">
@@ -18,13 +21,34 @@
             <label for="user-name">Your name</label>
             <input type="text" name="user-name" id="user-name"/>
             <label for="user-email">Your email address</label>
-            <input type="email" name="user-email" id="user-email" />
-            <label for="userage"> your age </label>
-            <input type="number" step="1" name="user-age" id="userage" />
-            <label for="userpassword"> Your password</label>
-            <input type="password" name="user-password" id="userpassword" />
-
+            <input type="email" name="user-email" id="user-email"/>
+            <label for="userage">
+                your age
+            </label>
+            <input type="number" step="1" name="user-age" id="userage"/>
+            <label for="userpassword">
+                Your password</label>
+            <input type="password" name="user-password" id="userpassword"/>
+            <label for="birtdate">Your birtdate</label>
+            <input type="date" name="birtdate" id="birtdate"/>
             <button>Submit</button>
-        </form>
-    </body>
+            <hr/>
+
+            <h2>How should we verify your account?</h2>
+            <div class="form-control-inline">
+                <input type="radio" name="verify" id="verify-text-message" value="message"/>
+                <label for="verify-text-message">
+                    Via text message (SMS)</label>
+            </div>
+            <div class="form-control-inline">
+                <input type="radio" name="verify" id="verify-phone" value="phone"/>
+                <label for="radio">Via a phone call</label>
+            </div>
+            <div class="form-control-inline">
+            <input type="radio" name="verify" id="verify-email" value="email"/>
+            <label for="">Via an email</label>
+        </div>
+        <button>Summit</button>
+    </form>
+</body>
 </html>
