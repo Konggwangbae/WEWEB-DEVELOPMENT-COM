@@ -20,11 +20,12 @@
             변경을 하면 중요한 부분에 노출을 방지 할 수 있다. -->
             <label for="user-name">Your name</label>
             <input type="text" name="user-name" id="user-name"/>
+
+            <label for="usermessage">Your message</label>
+            <textarea id="usermessage" name="usermessage"></textarea>
             <label for="user-email">Your email address</label>
             <input type="email" name="user-email" id="user-email"/>
-            <label for="userage">
-                your age
-            </label>
+            <label for="userage"> your age </label>
             <input type="number" step="1" name="user-age" id="userage"/>
             <label for="userpassword">
                 Your password</label>
@@ -32,8 +33,16 @@
             <label for="birtdate">Your birtdate</label>
             <input type="date" name="birtdate" id="birtdate"/>
             <button>Submit</button>
-            <hr/>
+           
+            <hr />
 
+            <label for="favorite-color">Your favorite color?</label>
+            <select name="" id="favorite-color">
+                <option value="Blue">My favorite color is Blue</option>
+                <option value="">Black</option>
+                <option value="">Red</option>
+            </select>
+            <!-- radio button 시작점 -->
             <h2>How should we verify your account?</h2>
             <div class="form-control-inline">
                 <input type="radio" name="verify" id="verify-text-message" value="message"/>
@@ -48,6 +57,17 @@
             <input type="radio" name="verify" id="verify-email" value="email"/>
             <label for="">Via an email</label>
         </div>
+
+        <div class="form-control-inline">
+            <input type="checkbox" id="contect-email" name="contact" value="email"/>
+            <label for="contect-email">Contect me via email</label>
+        </div>
+
+        <div class="form-control-inline">
+            <input type="checkbox" id="contact-phone" name="contact" value="phone"/>
+            <label for="contact-phone">Contect me via phone</label>
+        </div>
+        
         <button>Summit</button>
     </form>
 </body>
