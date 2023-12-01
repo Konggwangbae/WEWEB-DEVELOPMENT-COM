@@ -27,16 +27,16 @@
                     <ul>
                         <li>
                             <label for="user-name">Your name</label>
-                            <input type="text" name="user-name" id="user-name"/>
+                            <input type="text" name="user-name" id="user-name" required/>
                         </li>
                         <li>
                             <label for="user-email">Your email address</label>
-                            <input type="email" name="user-email" id="user-email"/>
+                            <input type="email" name="user-email" id="user-email" required/>
                         </li>
                         <li>
                             <label for="userpassword">
                                 Your password</label>
-                            <input type="password" name="user-password" id="userpassword"/>
+                            <input type="password" name="user-password" id="userpassword" required minlength="7"/>
                         </li>
                     </ul>
                 </section>
@@ -46,11 +46,11 @@
                     <ul>
                         <li>
                             <label for="userage"> your age </label>
-                            <input type="number" step="1" name="user-age" id="userage"/>
+                            <input type="number" step="1" name="user-age" id="userage" required min="100" />
                         </li>
                         <li>
                             <label for="birtdate">Your birtdate</label>
-                            <input type="date" name="birtdate" id="birtdate"/>
+                            <input type="date" name="birtdate" id="birtdate" required min="1921-01-01"/>
 
                         </li>
                         <li>
@@ -116,7 +116,7 @@
                     </section>
 
                     <section>
-                        <button>Summit</button>
+                        <button type="submit">Summit</button>
                     </section>
 
                 </form>
